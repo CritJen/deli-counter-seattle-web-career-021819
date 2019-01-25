@@ -7,5 +7,7 @@ def line(katz_deli)
       deli_line.push("#{index}. #{name}")
     end
     puts deli_line.join(", ")
+  else
+    puts "The line is currently empty."
 end
 end
