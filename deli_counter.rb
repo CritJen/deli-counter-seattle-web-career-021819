@@ -4,6 +4,6 @@ def line(katz_deli)
   if katz_deli.any? == true
     deli_line = []
     katz_deli.each_with_index do |name|
-      puts ""
+      deli_line.push("#{index}. #{name}")
     end
 end
