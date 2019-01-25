@@ -22,5 +22,7 @@ def now_serving(katz_deli)
   if katz_deli.any? == true
     next_up = katz_deli.shift
     puts "Currently serving #{next_up}."
+  else
+    puts "There is novody waiting to be served!"
   end
 end
