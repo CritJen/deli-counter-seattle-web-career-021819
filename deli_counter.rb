@@ -8,3 +8,4 @@ def line(katz_deli)
     end
     puts deli_line.join(", ")
 end
+end
